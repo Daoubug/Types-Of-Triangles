@@ -1,11 +1,11 @@
-let sideOne = 20
-let sideTwo = 20
-let sideThree = 2
+let sideOne = 100
+let sideTwo = 100
+let sideThree = 100
 
 if(sideOne===sideTwo && sideOne===sideThree && sideTwo===sideThree){
     console.log("Equilateral Triangle")
 }
-if(sideOne===sideTwo || sideOne===sideThree || sideTwo===sideThree){
+else if(sideOne===sideTwo || sideOne===sideThree || sideTwo===sideThree){
     console.log("Isosceles Triangle")
 }
 else{console.log("Scalene Triangle")}
